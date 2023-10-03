@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url('/fonts/Gilroy-Regular.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('/fonts/Gilroy-Medium.ttf/');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('/fonts/Gilroy-Semibold.ttf');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('/fonts/Gilroy-Bold.ttf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('/fonts/Gilroy-Extrabold.ttf');
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('/fonts/Inter-Medium.ttf');
+    font-weight: 500;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1110px;
+}
+
+
+
+
+//tablet
+@media screen and (max-width: 768px){
+    .container{
+        margin: 0 auto;
+        max-width: 690px;
+    }
+}
+
+
+//mobile
+
+@media screen and (max-width: 376px){
+    .container{
+        margin: 0 auto;
+        max-width: 335px;
+    }
+}
+
+
+

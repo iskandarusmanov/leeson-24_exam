@@ -1,0 +1,210 @@
+.customer__reviews {
+    margin: 0 auto;
+    max-width: 1440px;
+    height: 555px;
+    background-image: url(/images/customer__bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.customer__title {
+
+    h2 {
+        color: var(--black, #1D2530);
+        font-feature-settings: 'salt' on, 'liga' off;
+        font-family: Gilroy;
+        font-size: 46px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 64px;
+        text-align: center;
+    }
+}
+
+.customer__row {
+    margin: 0 auto;
+    width: auto;
+    height: auto;
+    display: flex;
+    gap: 30px;
+    margin-top: 48px;
+}
+
+.customer__card {
+    width: 540px;
+
+    .customer__card__info {
+        width: 540px;
+        height: 220px;
+        padding: 32px;
+        border-radius: 6px;
+        background: white;
+        box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.07);
+
+        h4 {
+            color: var(--text-gray-900, #18191F);
+            text-align: center;
+            font-feature-settings: 'salt' on, 'liga' off;
+            font-family: Inter;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 28px;
+        }
+
+        p {
+            color: var(--text-gray-900, #18191F);
+            text-align: center;
+            font-feature-settings: 'salt' on, 'liga' off;
+            font-family: Gilroy;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+            margin-top: 8px;
+        }
+    }
+}
+
+.profile__card {
+    margin: 0 auto;
+    width: 173px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 28px;
+
+    .profile__name {
+        h4 {
+            color: var(--black, #1D2530);
+            font-feature-settings: 'salt' on, 'liga' off;
+            font-family: Gilroy;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 28px;
+        }
+
+        p {
+            color: var(--black, #1D2530);
+            font-feature-settings: 'salt' on, 'liga' off;
+            font-family: Gilroy;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+        }
+    }
+}
+
+.circle__row {
+    margin: 0 auto;
+    width: 50px;
+    display: flex;
+    justify-content: space-between;
+
+    .circle__card {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: #685ED6;
+        margin-top: 32px;
+    }
+}
+
+
+
+//tablet
+
+@media screen and (max-width: 768px) {
+    .customer__reviews {
+        margin: 0 auto;
+        height: 530px;
+        overflow: hidden;
+    }
+
+    .customer__title {
+
+        h2 {
+            font-size: 32px;
+            font-weight: 800;
+            line-height: 40px;
+        }
+    }
+
+    .customer__row {
+        margin-top: 40px;
+        overflow-x: scroll;
+    }
+
+    .customer__card__info {
+
+        h4 {
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 28px;
+        }
+
+        p {
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 24px;
+        }
+    }
+}
+
+
+
+//mobile
+
+@media screen and (max-width: 376px) {
+    .customer__reviews {
+        margin: 0 auto;
+        height: 586px;
+        overflow: hidden;
+    }
+
+    .customer__title {
+
+        h2 {
+            font-family: Gilroy;
+            font-size: 32px;
+            font-weight: 800;
+            line-height: 40px;
+        }
+    }
+
+    .customer__row {
+        width: auto;
+        margin-top: 40px;
+        overflow-x: scroll;
+        gap: 30px;
+    }
+
+    .customer__card {
+        width: 328px;
+
+        .customer__card__info {
+            width: 328px;
+            height: 292px;
+            padding: 32px;
+            border-radius: 6px;
+    
+            h4 {
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 28px;
+            }
+    
+            p {
+                font-family: Gilroy;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 24px;
+                margin-top: 8px;
+            }
+        }
+    }
+
+    
+}

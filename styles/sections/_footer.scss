@@ -1,0 +1,282 @@
+.footer__banner {
+    padding: 90px 0;
+
+    .footer__banner__container {
+        margin: 0 auto;
+        width: 1110px;
+        height: 288px;
+        background-image: url(/images/footer_bg_banner.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        gap: 80px;
+        align-items: center;
+        border-radius: 6px;
+
+        .footer__banner__img {
+            margin-left: 110px;
+            margin-top: 54px;
+        }
+
+        .footer__banner__card {
+            width: 445px;
+            height: 166px;
+
+            h3 {
+                color: var(--default-white, #FFF);
+                font-feature-settings: 'salt' on, 'liga' off;
+                font-family: Gilroy;
+                font-size: 33px;
+                font-style: normal;
+                font-weight: 800;
+                line-height: 41px;
+                margin-bottom: 32px;
+            }
+
+            .footer__input {
+                width: 248px;
+                height: 52px;
+                border: none;
+                color: var(--text-gray-800, #474A57);
+                font-feature-settings: 'salt' on, 'liga' off;
+                font-family: Gilroy;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px;
+                display: flex;
+                padding: 14px 16px;
+                align-items: center;
+                gap: 10px;
+                border-radius: 5px 0px 0px 5px;
+                background: var(--text-gray-100, #F4F5F7);
+            }
+        }
+    }
+}
+
+.footer__banner__input {
+    width: 248px;
+    position: relative;
+}
+
+.footer__btn {
+    position: absolute;
+    top: 0;
+    right: -120px;
+
+    .footer__button {
+        border: none;
+        height: 52px;
+        color: var(--default-white, #FFF);
+        font-feature-settings: 'salt' on, 'clig' off, 'liga' off;
+        font-family: Gilroy;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 20px;
+        display: flex;
+        padding: 14px 24px;
+        align-items: center;
+        gap: 10px;
+        border-radius: 0px 5px 5px 0px;
+        background: var(--text-gray-900, #18191F);
+    }
+}
+
+
+
+
+footer {
+    margin: 0 auto;
+    max-width: 1440px;
+    height: 448px;
+    background: rgba(29, 37, 48, 1);
+}
+
+.footer__container {
+    max-width: 1110px;
+    height: 448px;
+    margin: 0 auto;
+    display: flex;
+    gap: 389px;
+
+    .footer__logo {
+        padding-top: 111px;
+    }
+
+    .footer__menu {
+        padding-top: 104px;
+        display: flex;
+        gap: 126px;
+    }
+
+    .footer__menu h3 {
+        color: #F4F5F7;
+        font-family: Gilroy;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+    }
+
+    .footer__menu h4 {
+        padding-top: 32px;
+    }
+
+    .footer__menu li {
+        padding-top: 12px;
+    }
+
+    .footer__menu a {
+        color: #EEEFF4;
+        font-family: Gilroy;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+    }
+}
+
+.footer__section {
+    max-width: 1440px;
+    height: 72px;
+    margin: 0 auto;
+    background-color: #141B23;
+
+    .footer__nav {
+        max-width: 1110px;
+        max-height: 72px;
+        margin: 0 auto;
+    }
+
+    .footer__nav p {
+        padding-top: 25px;
+        color: #D9DBE1;
+        font-family: Gilroy;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+}
+
+
+
+
+//tablet
+
+@media screen and (max-width: 768px) {
+    .footer__banner {
+        padding: 54px 0;
+
+        .footer__banner__container {
+            margin: 0 auto;
+            width: 688px;
+            height: 288px;
+            gap: 30px;
+            border-radius: 6px;
+
+            .footer__banner__img {
+                width: 269px;
+                height: 239px;
+                margin-left: 30px;
+                margin-top: 54px;
+            }
+
+            .footer__banner__card {
+                width: 330px;
+                height: 148px;
+
+                h3 {
+                    font-size: 24px;
+                    font-weight: 800;
+                    line-height: 32px;
+                }
+
+                .footer__input {
+                    font-size: 15px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    width: 210px;
+                    padding: 14px 16px;
+                    align-items: center;
+                    gap: 10px;
+                }
+            }
+        }
+    }
+
+    .footer__btn {
+        position: absolute;
+        top: 0;
+        right: -60px;
+        ;
+    }
+
+
+    footer {
+        margin: 0 auto;
+        max-width: 768px;
+        height: 460px;
+    }
+
+    .footer__container {
+        margin: 0 auto;
+        max-width: 768px;
+        height: 374px;
+        display: flex;
+        gap: 152px;
+        margin-left: 43px;
+
+        .footer__logo {
+            padding-top: 60px;
+
+            img {
+                width: 87px;
+                height: 96px;
+            }
+        }
+
+
+        .footer__menu {
+            padding-top: 60px;
+            display: flex;
+            gap: 60px;
+        }
+
+        .footer__menu h3 {
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 30px;
+        }
+
+        .footer__menu h4 {
+            padding-top: 32px;
+        }
+
+        .footer__menu li {
+            padding-top: 12px;
+        }
+
+        .footer__menu a {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 26px;
+        }
+    }
+
+    .footer__section {
+        height: 74px;
+    
+        .footer__nav {
+            max-width: 688px;
+            max-height: 74px;
+            margin: 0 auto;
+        }
+    
+        .footer__nav p {
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 24px;
+        }
+    }
+
+}

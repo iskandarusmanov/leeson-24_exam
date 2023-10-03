@@ -1,0 +1,230 @@
+.site__traffics {
+    padding: 100px 0;
+}
+
+.traffic__title {
+    color: var(--black, #1D2530);
+    text-align: center;
+    font-feature-settings: 'salt' on, 'liga' off;
+    font-family: Gilroy;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 64px;
+}
+
+.traffic__desc {
+    color: var(--black, #1D2530);
+    font-feature-settings: 'salt' on, 'liga' off;
+    font-family: Gilroy;
+    font-size: 24px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    margin-top: 16px;
+}
+
+.traffic__row {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.trafic__scroll {
+    display: none;
+}
+
+.traffic__card {
+    width: 350px;
+    height: 387px;
+    border-radius: 6px;
+    background: #FCFEFF;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.07);
+}
+
+.traffic__type {
+    width: 350px;
+    height: 61px;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    flex-shrink: 0;
+    background: rgba(104, 94, 214, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.traffic__type p {
+    color: #685ED6;
+    font-family: Gilroy;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 48px;
+}
+
+.traffic__info {
+    color: var(--black, #1D2530);
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    margin-top: 40px;
+}
+
+.traffic__cost {
+    color: var(--black, #1D2530);
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    margin-top: 32px;
+}
+
+.traffic__btn {
+    margin: 0 auto;
+    width: 287px;
+    margin-top: 46px;
+
+    button {
+        display: flex;
+        width: 287px;
+        padding: 12px 0;
+        display: flex;
+        justify-content: center;
+        border-radius: 6px;
+        background: var(--violet, #685ED6);
+        box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.07);
+        border: none;
+        color: var(--default-white, #FFF);
+        text-align: center;
+        font-family: Gilroy;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+    }
+
+    button:hover {
+        color: rgba(104, 94, 214, 1);
+        background-color: lightgrey;
+    }
+}
+
+
+
+//tablet
+
+@media screen and (max-width: 768px) {
+    .site__traffics {
+        padding: 54px 0;
+        overflow: hidden;
+    }
+
+    .traffic__title {
+        font-size: 32px;
+        font-weight: 800;
+        line-height: 40px;
+    }
+
+    .traffic__desc {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 28px;
+        margin-top: 8px;
+    }
+
+    .traffic__row {
+        margin-top: 36px;
+        display: flex;
+        gap: 20px;
+        overflow-x: scroll;
+    }
+
+    .trafic__scroll {
+        display: block;
+    }
+}
+
+
+
+//mobile
+
+@media screen and (max-width: 376px) {
+    .site__traffics {
+        padding: 0;
+        overflow: hidden;
+    }
+
+    .trafic__scroll {
+        display: block;
+    }
+
+    .traffic__title {
+        font-family: Gilroy;
+        font-size: 32px;
+        font-weight: 800;
+        line-height: 40px;
+    }
+
+    .traffic__desc {
+        font-family: Gilroy;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 28px;
+    }
+
+    .traffic__row {
+        margin-top: 32px;
+        display: flex;
+        gap: 20px;
+    }
+
+    .traffic__card {
+        width: 330px;
+        box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.07);
+    }
+
+    .traffic__type {
+        width: 330px;
+
+        .traffic__type p {
+            font-family: Gilroy;
+            font-size: 24px;
+            font-weight: 800;
+            line-height: 48px;
+        }
+
+        .traffic__info {
+            font-family: Gilroy;
+            font-size: 28px;
+            font-weight: 700;
+            line-height: 40px;
+        }
+
+        .traffic__cost {
+            font-family: Gilroy;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 30px;
+        }
+
+        .traffic__btn {
+            margin: 0 auto;
+            width: 287px;
+            margin-top: 46px;
+
+            button {
+                display: flex;
+                width: 270px;
+            }
+        }
+    }
+}
